@@ -17,11 +17,12 @@ There are two classes in the system. The class named "Item" allows us to keep th
 When the system is turned on, a screen opens that offers options to make a selection first and calls the necessary methods according to the selected process.
 <br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/console1.JPG">
 <br/>
-**"Print Inventory" option**<br/>
+### "Print Inventory" option
 The "Print Inventory" option lists the amount of "Item" classes stored in the system in the inventory as shown in the figure.
 <br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/inventory.JPG">
 <br/>
-**"Order Item" Option**<br/>
+### "Order Item" Option
+
 1. The item number is taken as input from the user.
 2. If the selected item exists in the system, the item entered as input is assigned as the current item. If there are no items in the system, the 1st stage will be returned.
 3. The number of products that the user requests one by one for each week is requested as input.
@@ -30,9 +31,10 @@ The "Print Inventory" option lists the amount of "Item" classes stored in the sy
 6. Calculations are printed on the screen in tabular form.
 7. Sub-item test is done for the current item, and if there are sub-items, they are re-inserted into the method and again from the 5th stage.
 8. After the method is returned for each item, the system returns to the selection screen
+
 <br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/example.JPG">
 <br/>
-**"Show Items" Option**<br/>
+### "Show Items" Option
 All items defined in the system are printed on the screen in tree form.
 <br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/itemsTree.JPG">
 
