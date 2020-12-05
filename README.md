@@ -5,21 +5,23 @@ I developed a computer program that takes bill of material and the gross require
 
 ## Product Structure
 Consider the product structure that belongs to a snow shovel. The demand and the inventory data provided below:
-<img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/graphic.jpg">
-<img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/table.jpg">
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/graphic.JPG">
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/table.JPG">
 
 ## Class Diagram
 There are two classes in the system. The class named "Item" allows us to keep the information of each product. The class named "mainClass" is used to store the information in the "Item" class by assigning the information to the sub-classes and to make calculations and print the information for each sub-item.
-<img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/console1.jpg">
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/console1.JPG">
 
 
 ## System Operation
 When the system is turned on, a screen opens that offers options to make a selection first and calls the necessary methods according to the selected process.
-<img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/ClassDiagram.jpg">
-**"Print Inventory" option**
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/ClassDiagram.JPG">
+<br/>
+**"Print Inventory" option**<br/>
 The "Print Inventory" option lists the amount of "Item" classes stored in the system in the inventory as shown in the figure.
-<img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/inventory.jpg">
-**"Order Item" Option**
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/inventory.JPG">
+<br/>
+**"Order Item" Option**<br/>
 1. The item number is taken as input from the user.
 2. If the selected item exists in the system, the item entered as input is assigned as the current item. If there are no items in the system, the 1st stage will be returned.
 3. The number of products that the user requests one by one for each week is requested as input.
@@ -28,10 +30,11 @@ The "Print Inventory" option lists the amount of "Item" classes stored in the sy
 6. Calculations are printed on the screen in tabular form.
 7. Sub-item test is done for the current item, and if there are sub-items, they are re-inserted into the method and again from the 5th stage.
 8. After the method is returned for each item, the system returns to the selection screen
-<img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/example.jpg">
-**"Show Items" Option**
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/example.JPG">
+<br/>
+**"Show Items" Option**<br/>
 All items defined in the system are printed on the screen in tree form.
-<img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/itemsTree.jpg">
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/itemsTree.JPG">
 
 
 by [Yasin Tohan](https://github.com/yasintohan)
