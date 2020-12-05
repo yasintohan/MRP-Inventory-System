@@ -10,12 +10,12 @@ Consider the product structure that belongs to a snow shovel. The demand and the
 
 ## Class Diagram
 There are two classes in the system. The class named "Item" allows us to keep the information of each product. The class named "mainClass" is used to store the information in the "Item" class by assigning the information to the sub-classes and to make calculations and print the information for each sub-item.
-<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/console1.JPG">
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/ClassDiagram.JPG">
 
 
 ## System Operation
 When the system is turned on, a screen opens that offers options to make a selection first and calls the necessary methods according to the selected process.
-<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/ClassDiagram.JPG">
+<br/><img src = "https://github.com/yasintohan/MRP-Inventory-System/blob/master/images/console1.JPG">
 <br/>
 **"Print Inventory" option**<br/>
 The "Print Inventory" option lists the amount of "Item" classes stored in the system in the inventory as shown in the figure.
